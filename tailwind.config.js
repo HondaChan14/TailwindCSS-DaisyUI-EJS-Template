@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+
+/* Have  @type {import('tailwindcss').Config} removed */
 module.exports = {
   content: ["./views/**/*.ejs"],
   theme: {
