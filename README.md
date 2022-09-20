@@ -105,7 +105,7 @@ This is an example of how to list things you need to use the software and how to
       (Doing this will link your src/style.css and create a public/style.css with TailwindCSS elements autocreated )
       Basically the Nodemon of Tailwind/DaisyUI. Watch at the end means that you only have to run it the one time and then every time you save a file it rebuilds the CSS and you don't have to keep restarting it
 
-8.Run Both Nodemon and TailwindCSS-DaisyUI
+6.  Run Both Nodemon and TailwindCSS-DaisyUI
 
 ```js
 npm run dev in one Terminal for Nodemon
