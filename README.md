@@ -88,13 +88,30 @@ This is an example of how to list things you need to use the software and how to
    const DB_STRING = 'ENTER YOUR MONGODB CONNECTION STRING';
    const PORT = 'ENTER YOUR LOCALHOST PORT NUMBER'; EX: 2121
    ```
-5. Run Both Nodemon and TailwindCSS-DaisyUI
+5. Followed the install instructions steps 1  from here: https://tailwindcss.com/docs/installation/using-postcss
+
+  A. Create your [postcss.config.js] file. Some reason it isn't made when installing postcss
+
+  B. Then copy paste the 2nd Step box to [postcss.config.js]
+
+  C. Then for ejs, you add to your contents section in your [tailwind.config.js]:
+       "./views/**/*.ejs"
+
+  D.  copy paste the fourth box into your style.css
+      Then set up the main style.css in a src folder. (This is where you will add your CSS)
+      
+  E.  Then you go to your package.json and use this for the script
+      "build-css": "tailwindcss -i src/style.css -o public/style.css --watch"
+      (Doing this will link your src/style.css and create a public/style.css with TailwindCSS elements autocreated )
+      Basically the Nodemon of Tailwind/DaisyUI. Watch at the end means that you only have to run it the one time and then every time you save a file it rebuilds the CSS and you don't have to keep restarting it
+
+8.Run Both Nodemon and TailwindCSS-DaisyUI
 
 ```js
-npm run dev` in one Terminal for Nodemon
+npm run dev in one Terminal for Nodemon
 ```
 ```js
-npm run build-css` in another terminal to see TailwindCSS/DaisyUI updates
+npm run build-css in another Terminal to see TailwindCSS/DaisyUI updates
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
