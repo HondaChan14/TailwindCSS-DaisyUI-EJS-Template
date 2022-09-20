@@ -1,11 +1,3 @@
-<a name="readme-top"></a>
-
-[![Contributors][contributors-shield]][https://github.com/HondaChan14/TailwindCSS-DaisyUI-EJS-Template/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/HondaChan14/TailwindCSS-DaisyUI-EJS-Template/network/members]
-[![Stargazers][stars-shield]][https://github.com/HondaChan14/TailwindCSS-DaisyUI-EJS-Template/stargazers]
-[![Issues][issues-shield]][https://github.com/HondaChan14/TailwindCSS-DaisyUI-EJS-Template/issues]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/jason-jugo/]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
